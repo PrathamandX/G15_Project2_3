@@ -1,7 +1,7 @@
 ## Multithreaded File Management System on xv6  
 ### (Producer-Consumer Based Concurrent File Operations)
 
-This project implements a **concurrent file management system** on the **xv6 operating system** for Operating Systems Lab (Project 2.3).  
+This project implements a **concurrent file management system** on the **xv6 operating system**. 
 It demonstrates core OS concepts such as producer-consumer task distribution, synchronization, kernel/user interaction, and safe file operations under concurrency.
 
 Although xv6 does not provide a full pthread-style user thread library, the project uses multiple worker processes (`fork`) to simulate concurrent workers.  
@@ -165,12 +165,3 @@ This project provides practical experience in:
 - building reliable systems with logging and error handling
 
 ---
-
-## Team
-
-- Prathamesh Vispute
-- Pranjul
-- Prathyush P
-- Punit
-- Poka Sireesha
-- Prabir Soren
